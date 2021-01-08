@@ -6,3 +6,7 @@
   data-step="1" 
   data-count="<%= @count.to_i %>"
 >Increment <%= @count.to_i %></a>
+<br><a href="#"
+  data-controller="counter"
+  data-action="click->counter#decrement"
+>Decrement <%= @count_2 %></a>
